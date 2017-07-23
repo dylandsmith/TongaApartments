@@ -1,4 +1,18 @@
 <!DOCTYPE html>
+<style>
+	.jumbo-header {
+		position: relative;
+		background-image: url(<%= asset_path('tonga-header-img.jpg') %>);
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 300px;
+	}
+	.header-title {
+		position: absolute;
+		bottom: 10px;
+		color: white;
+	}
+</style>
 <html>
   <head>
     <title>Tonga Apartments LLC</title>
@@ -10,8 +24,10 @@
 
   <body>
 		<div class="container">
-			<div class="jumbotron">
-				<h1>Hello Tonga Apartments</h1>
+			<div class="jumbotron jumbo-header">
+				<span class="header-title">
+					<h1>Tonga Apartments LLC</h1>
+				</span>
 			</div>
 		</div>
     <%= yield %>
