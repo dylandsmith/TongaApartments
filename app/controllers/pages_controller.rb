@@ -1,15 +1,11 @@
 class PagesController < ApplicationController
-  layout "tonga_layout"
-  
+  layout 'tonga_layout'
   def home
-    
   end
-  
-  def about
-    
+
+  def floorplans
   end
-  
-  def contact
-    
+
+  def contactus
   end
 end

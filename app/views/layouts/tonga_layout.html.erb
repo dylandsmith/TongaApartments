@@ -17,14 +17,15 @@
   <head>
     <title>Tonga Apartments LLC</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
 		<div class="container">
+			
 			<div class="jumbotron jumbo-header">
+				<%= render 'navigation' %>
 				<span class="header-title">
 					<h1>Tonga Apartments LLC</h1>
 				</span>
